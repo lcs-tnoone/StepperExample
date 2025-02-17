@@ -22,7 +22,7 @@ struct ContentView: View {
             Spacer()
             
             HStack(alignment: .top) {
-                 Text("\(base)")
+                 Text("(\(base))")
                     .font(.system(size: 96))
  
                 Text("2")

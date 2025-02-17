@@ -6,17 +6,22 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		E9FCD6A32D62E90B00BDD0B4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9FCD6A02D62E90B00BDD0B4 /* ContentView.swift */; };
+		E9FCD6A42D62E90B00BDD0B4 /* StepperExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9FCD6A12D62E90B00BDD0B4 /* StepperExampleApp.swift */; };
+		E9FCD6A52D62E90B00BDD0B4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9FCD69D2D62E90B00BDD0B4 /* Preview Assets.xcassets */; };
+		E9FCD6A62D62E90B00BDD0B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9FCD69F2D62E90B00BDD0B4 /* Assets.xcassets */; };
+		E9FCD6A82D62E92E00BDD0B4 /* AdditionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9FCD6A72D62E92E00BDD0B4 /* AdditionView.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		E9FCD68C2D62D86000BDD0B4 /* StepperExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StepperExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9FCD69D2D62E90B00BDD0B4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E9FCD69F2D62E90B00BDD0B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E9FCD6A02D62E90B00BDD0B4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E9FCD6A12D62E90B00BDD0B4 /* StepperExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperExampleApp.swift; sourceTree = "<group>"; };
+		E9FCD6A72D62E92E00BDD0B4 /* AdditionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdditionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		E9FCD68E2D62D86000BDD0B4 /* StepperExample */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = StepperExample;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		E9FCD6892D62D86000BDD0B4 /* Frameworks */ = {
@@ -32,7 +37,7 @@
 		E9FCD6832D62D86000BDD0B4 = {
 			isa = PBXGroup;
 			children = (
-				E9FCD68E2D62D86000BDD0B4 /* StepperExample */,
+				E9FCD6A22D62E90B00BDD0B4 /* StepperExample */,
 				E9FCD68D2D62D86000BDD0B4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +48,26 @@
 				E9FCD68C2D62D86000BDD0B4 /* StepperExample.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		E9FCD69E2D62E90B00BDD0B4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E9FCD69D2D62E90B00BDD0B4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E9FCD6A22D62E90B00BDD0B4 /* StepperExample */ = {
+			isa = PBXGroup;
+			children = (
+				E9FCD69E2D62E90B00BDD0B4 /* Preview Content */,
+				E9FCD69F2D62E90B00BDD0B4 /* Assets.xcassets */,
+				E9FCD6A02D62E90B00BDD0B4 /* ContentView.swift */,
+				E9FCD6A12D62E90B00BDD0B4 /* StepperExampleApp.swift */,
+				E9FCD6A72D62E92E00BDD0B4 /* AdditionView.swift */,
+			);
+			path = StepperExample;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +84,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				E9FCD68E2D62D86000BDD0B4 /* StepperExample */,
 			);
 			name = StepperExample;
 			packageProductDependencies = (
@@ -109,6 +131,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9FCD6A52D62E90B00BDD0B4 /* Preview Assets.xcassets in Resources */,
+				E9FCD6A62D62E90B00BDD0B4 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9FCD6A32D62E90B00BDD0B4 /* ContentView.swift in Sources */,
+				E9FCD6A42D62E90B00BDD0B4 /* StepperExampleApp.swift in Sources */,
+				E9FCD6A82D62E92E00BDD0B4 /* AdditionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

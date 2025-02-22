@@ -7,12 +7,19 @@
 
 import SwiftUI
 
-struct Addition: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+struct Addition {
+    
+    //MARK: Stored Properties
+    
+    var base: Double
+    
+    var base2: Double
+    
+    var result: Double {
+        
+        var solution = base + base2
+        return solution
+        
+        }
+    
     }
-}
-
-#Preview {
-    Addition()
-}

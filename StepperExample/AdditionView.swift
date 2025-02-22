@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct AdditionView: View {
+struct OldAdditionView: View {
     
     // MARK: Stored properties
     @State var base: Int = 1
@@ -57,5 +57,5 @@ struct AdditionView: View {
 }
  
 #Preview {
-    AdditionView()
+    OldAdditionView()
 }

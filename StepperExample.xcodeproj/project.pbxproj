@@ -14,7 +14,6 @@
 		E9FCD6A42D62E90B00BDD0B4 /* StepperExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9FCD6A12D62E90B00BDD0B4 /* StepperExampleApp.swift */; };
 		E9FCD6A52D62E90B00BDD0B4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9FCD69D2D62E90B00BDD0B4 /* Preview Assets.xcassets */; };
 		E9FCD6A62D62E90B00BDD0B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9FCD69F2D62E90B00BDD0B4 /* Assets.xcassets */; };
-		E9FCD6A82D62E92E00BDD0B4 /* AdditionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9FCD6A72D62E92E00BDD0B4 /* AdditionView.swift */; };
 		E9FCD6AC2D62ED1200BDD0B4 /* SubtractionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9FCD6AB2D62ED1200BDD0B4 /* SubtractionView.swift */; };
 		E9FCD6B22D62EEC100BDD0B4 /* MultiplicationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9FCD6B12D62EEC100BDD0B4 /* MultiplicationView.swift */; };
 		E9FCD6B42D62EF5600BDD0B4 /* DivisionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9FCD6B32D62EF5600BDD0B4 /* DivisionView.swift */; };
@@ -29,7 +28,6 @@
 		E9FCD69F2D62E90B00BDD0B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E9FCD6A02D62E90B00BDD0B4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E9FCD6A12D62E90B00BDD0B4 /* StepperExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperExampleApp.swift; sourceTree = "<group>"; };
-		E9FCD6A72D62E92E00BDD0B4 /* AdditionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdditionView.swift; sourceTree = "<group>"; };
 		E9FCD6AB2D62ED1200BDD0B4 /* SubtractionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubtractionView.swift; sourceTree = "<group>"; };
 		E9FCD6B12D62EEC100BDD0B4 /* MultiplicationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiplicationView.swift; sourceTree = "<group>"; };
 		E9FCD6B32D62EF5600BDD0B4 /* DivisionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DivisionView.swift; sourceTree = "<group>"; };
@@ -103,7 +101,6 @@
 				E981BA542D6A1C5300B7A955 /* ViewModels */,
 				E981BA552D6A1C5D00B7A955 /* Views */,
 				E9FCD6A02D62E90B00BDD0B4 /* ContentView.swift */,
-				E9FCD6A72D62E92E00BDD0B4 /* AdditionView.swift */,
 				E9FCD6AB2D62ED1200BDD0B4 /* SubtractionView.swift */,
 				E9FCD6B12D62EEC100BDD0B4 /* MultiplicationView.swift */,
 				E9FCD6B32D62EF5600BDD0B4 /* DivisionView.swift */,
@@ -192,7 +189,6 @@
 				E981BA572D6A1CAC00B7A955 /* Addition.swift in Sources */,
 				E9FCD6AC2D62ED1200BDD0B4 /* SubtractionView.swift in Sources */,
 				E9FCD6A42D62E90B00BDD0B4 /* StepperExampleApp.swift in Sources */,
-				E9FCD6A82D62E92E00BDD0B4 /* AdditionView.swift in Sources */,
 				E981BA5B2D6A1CEB00B7A955 /* AdditionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

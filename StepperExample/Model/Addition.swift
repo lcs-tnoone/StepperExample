@@ -15,11 +15,13 @@ struct Addition {
     
     var base2: Double
     
+    
+    //MARK: Computed Properties
     var result: Double {
         
         var solution = base + base2
         return solution
         
-        }
-    
     }
+    
+}

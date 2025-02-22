@@ -12,7 +12,7 @@ struct AdditionView: View {
     //MARK: Stored Properties
     //Holds view model, to track current state of data with the app
     
-    @State var viewmodel = AdditionViewModel()
+    @State var viewModel = AdditionViewModel()
     
     //MARK: Computed properties
     
@@ -21,7 +21,7 @@ struct AdditionView: View {
             Spacer()
             
             //Output
-            if let addition = viewmodel.addition {
+            if let addition = viewModel.addition {
                 HStack(alignment: .center) {
                     HStack(alignment: .top) {
                         
@@ -46,15 +46,15 @@ struct AdditionView: View {
                 ContentUnavailableView(
                     "Unable to evaluate",
                     systemImage: "gear.badge.questionmark",
-                    description: Text(viewmodel.recoverySuggestion)
+                    description: Text(viewModel.recoverySuggestion)
                 )
                 .frame(height: 300)
             }
                 //Input
-            TextField("Base", text: $viewmodel.providedBase)
+            TextField("Base", text: $viewModel.providedBase)
                 .textFieldStyle(.roundedBorder)
             
-            TextField("Base 2", text: $viewmodel.providedBase2)
+            TextField("Base 2", text: $viewModel.providedBase2)
                 .textFieldStyle(.roundedBorder)
  
             // Extra space at bottom

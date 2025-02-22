@@ -14,8 +14,8 @@ class AdditionViewModel {
     
     //Hold what user has typed
     
-    var providedBase: String
-    var providedBase2: String
+    var providedAugend: String
+    var providedAddend: String
     
     //Holds error message
     var recoverySuggestion: String = ""
@@ -25,14 +25,14 @@ class AdditionViewModel {
     var addition: Addition? {
         //First check that the string in provided base can be converted into a number
         
-        guard let base = Double(providedBase) else {
+        guard let augend = Double(providedAugend) else {
             recoverySuggestion = "Please provide a numeric value."
             
             return nil
             
         }
         
-        guard let base2 = Double(providedBase2) else {
+        guard let addend = Double(providedAddend) else {
             recoverySuggestion = "Please provide a numeric value."
             
             return nil
@@ -40,7 +40,7 @@ class AdditionViewModel {
         }
 
         recoverySuggestion = "" // No error message
-        return Addition(base: base, base2: base2)
+        return Addition(augend: augend, addend: addend)
         
         // MARK: Initializer(s)
         
@@ -49,12 +49,12 @@ class AdditionViewModel {
     }
     
     init(
-        providedBase: String = "",
-        providedBase2: String = "",
+        providedAugend: String = "",
+        providedAddend: String = "",
         recoverySuggestion: String = ""
     ) {
-        self.providedBase = providedBase
-        self.providedBase2 = providedBase2
+        self.providedAugend = providedAugend
+        self.providedAddend = providedAddend
         self.recoverySuggestion = recoverySuggestion
     }
 

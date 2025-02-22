@@ -11,15 +11,15 @@ struct Addition {
     
     //MARK: Stored Properties
     
-    var base: Double
+    var augend: Double
     
-    var base2: Double
+    var addend: Double
     
     
     //MARK: Computed Properties
-    var result: Double {
+    var sum: Double {
         
-        var solution = base + base2
+        var solution = augend + addend
         return solution
         
     }

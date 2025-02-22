@@ -25,13 +25,13 @@ struct AdditionView: View {
                 HStack(alignment: .center) {
                     HStack(alignment: .top) {
                         
-                        Text("\(addition.base.formatted()) + \(addition.base2.formatted())")
+                        Text("\(addition.augend.formatted()) + \(addition.addend.formatted())")
                             .font(.system(size: 96))
                     }
                     HStack{
                         Text("=")
                             .font(.system(size: 96))
-                        Text("\(addition.result.formatted())")
+                        Text("\(addition.sum.formatted())")
                             .font(.system(size: 96))
                     }
                 }
@@ -51,10 +51,10 @@ struct AdditionView: View {
                 .frame(height: 300)
             }
                 //Input
-            TextField("Base", text: $viewModel.providedBase)
+            TextField("Augend", text: $viewModel.providedAugend)
                 .textFieldStyle(.roundedBorder)
             
-            TextField("Base 2", text: $viewModel.providedBase2)
+            TextField("Addend", text: $viewModel.providedAddend)
                 .textFieldStyle(.roundedBorder)
  
             // Extra space at bottom
